@@ -1,0 +1,30 @@
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-style: italic;
+  font-family: fantasy;
+  border-bottom: 2px solid blue;
+  border-right: 2px solid blue;
+  width: 350px;
+  text-align: center;
+  box-shadow: 4px 4px 1px #477181;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
